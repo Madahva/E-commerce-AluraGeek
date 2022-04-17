@@ -35,10 +35,28 @@
     <main class="add-products">
 
         <h1 class="add-products__tittle">Agregar nuevo producto</h1>
-        <div class="add-products__drag-area">
+        <div class="add-products__drag-area--movile">
             <img src="./src/images/add_product.svg" alt="add product icon">
             <p class="add-products__drag-area__para">Agregar una imagen para el producto</p>
         </div>
+
+        <div class="add-products__pc">
+
+            <div class="add-products__drag-area">
+                <img src="./src/images/add_product.png" alt="add product icon">
+                <p class="add-products__drag-area__para">Arrastre una imagen para agregar al producto</p>
+            </div>
+
+            <p>O</p>
+
+            <button id ="login-button" class="header__login-button" href="./login.html">
+                Busque en su dispositivo
+            </button>
+
+        </div>
+
+        
+
         <form>
             <div id="nombreDelProductoContainer" class="contact__input__container">
                 <label id="nombreDelProductoLabel" class="contact__label" for="nombreDelProducto">Nombre del producto</label>

@@ -42,3 +42,21 @@
 .banner__link:hover{
     background: #5595E9;
 }
+
+@media(min-width: 768px){
+
+    .banner{
+        height: 352px;
+        padding: 32px;
+    }
+
+    .banner__title{
+        font-size: 52px;
+    }
+
+    .banner__para{
+        font-size: 22px;
+        margin: 16px 0;
+    }
+
+}

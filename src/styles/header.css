@@ -76,3 +76,34 @@
     padding: 10px; 
 }
 
+@media(min-width: 768px){
+
+    .search__input{
+        width: 150px;
+        padding: 10px; 
+    }
+
+    .header__login-button--hidden{
+        display: block;
+        position: relative;
+    }
+
+    .header__login-button{
+        order: 3;
+    }
+
+    .search{
+        background: #F5F5F5;
+        order: 2;
+    }
+    .search__input{
+        color: #A2A2A2;
+    }
+
+    .search__input::placeholder{
+        color: #A2A2A2;
+    }
+    .search__btn i{
+        color: #A2A2A2;
+    }
+}
