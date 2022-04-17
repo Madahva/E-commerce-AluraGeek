@@ -40,3 +40,16 @@
 .contact__input__submit{
     align-self: flex-end;
 }
+
+@media(min-width: 1000px) {
+
+    .login h2 {
+        font-size: 18px;
+    }
+
+    .contact__input__submit{
+        font-size: 18px;
+        height: 62px;
+        width: 328px;
+    }
+}

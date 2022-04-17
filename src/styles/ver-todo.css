@@ -7,3 +7,9 @@
     margin-top: 0!important;
 }
 
+@media(min-width: 1000px) {
+    .products{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}

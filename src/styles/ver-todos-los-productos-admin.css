@@ -47,3 +47,27 @@ main{
         font-size: 16px;
     }
 }
+
+@media(min-width: 1000px) {
+
+    main {
+        padding: 0;
+        margin-bottom: 64px;
+    }
+
+    .product__image {
+        width: 176px;
+    }
+
+    .products__header{
+        padding: 64px 10% 16px 10%;
+    }
+
+    .products__add-button{
+        font-weight: normal;
+        height: 51px;
+        padding-top: 16px;
+        text-align: center;
+        width: 163px;
+    }
+}
